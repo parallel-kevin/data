@@ -1,0 +1,8 @@
+`id` INT NOT NULL AUTO_INCREMENT ,
+`transaction_date` DATE NOT NULL ,
+`top_platform` VARCHAR(10) NOT NULL ,
+`sheng_name_cn` VARCHAR(15) NOT NULL ,
+`city_name_cn` VARCHAR(15) NOT NULL ,
+`page_view` INT(10) NOT NULL ,
+`user_view` INT(10) NOT NULL ,
+PRIMARY KEY (`ID`)
